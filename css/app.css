@@ -1,0 +1,60 @@
+.img-block{
+    background-color:grey;
+    height: 15rem;
+    width: 100%;
+}
+
+h6{
+    margin: 0.5rem;
+}
+.width10{
+    width: 10rem;
+}
+
+.slider{
+    width: 80%;
+}
+
+.prev-arrow{
+    position: absolute;
+    top:27.5%;
+    left: -0.8rem;
+    font-size: 1.1rem;
+    height: 6.9rem;
+    width: 2.3rem;
+    background: #297bb7;
+    color: white;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    z-index: 50;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.prev-arrow:hover{
+    border-color: turquoise;
+    background: turquoise;
+    color: #297bb7;
+}
+
+.next-arrow{
+    position: absolute;
+    top: 27.5%;
+    right: -0.8rem;
+    font-size: 1.1rem;
+    height: 6.9rem;
+    width: 2.3rem;
+    background: #297bb7;
+    color: white;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    z-index: 50;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.next-arrow:hover{
+    border-color: turquoise;
+    background: turquoise;
+    color: #297bb7;
+}
