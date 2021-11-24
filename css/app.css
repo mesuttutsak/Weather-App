@@ -1,18 +1,8 @@
-.img-block{
-    background-color:grey;
-    height: 15rem;
-    width: 100%;
-}
-
-h6{
-    margin: 0.5rem;
-}
 .width10{
-    width: 10rem;
-}
-
-.slider{
-    width: 80%;
+    color: white;
+    height: 28rem !important;
+    border-radius: 4rem !important;
+    background-color: #0A1F45 !important;
 }
 
 .prev-arrow{
@@ -32,11 +22,12 @@ h6{
 }
 
 .prev-arrow:hover{
-    border-color: turquoise;
     background: turquoise;
-    color: #297bb7;
+    border-color: turquoise;
 }
-
+.prev-arrow:active{
+    box-shadow: 0.1rem 0 0.5rem 0.1rem lightgrey;
+}
 .next-arrow{
     position: absolute;
     top: 27.5%;
@@ -54,7 +45,10 @@ h6{
 }
 
 .next-arrow:hover{
-    border-color: turquoise;
     background: turquoise;
-    color: #297bb7;
+    border-color: turquoise;
+}
+
+.next-arrow:active{
+    box-shadow: -0.1rem 0 0.5rem 0.1rem lightgrey;
 }
